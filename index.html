@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-----------------------------------------------------------------------------------
+This is the page head - it contains info the browser uses to display the page
+You won't see what's in the head in the page.
+------------------------------------------------------------------------------------>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>My first webpage</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-------------------- Import the webpage's stylesheet -------------------------------->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!------------------- Import the webpage's javascript file ---------------------------->
+    <script src="/script.js" defer></script>
+
+    <!-------------------- Import the bootstrap format tools ------------------------------>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <!-------------------------------------------------------------------------------------------------
+      This is the body of the page
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+--------------------------------------------------------------------------------------------------->
+
+  <body>
+    <!---We create a bootstrap container to keep an order. Inside the containers we must 
+         divide everything in rows. Inside the rows we have to divide everything in columns-->
+    
+    
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="title" style="text-align: center;">Este es mi sitio sobre cambio climático</h1>
+        </div>
+      </div>
+      <hr />
+
+      <!-- The wrapper and content divs set margins and positioning -->
+      <div class="wrapper">
+        <h2>Acción climática basada en la tecnología</h2>
+
+        <!--- Here we add an image, we must make sure that it is saved in our "assets" folder 
+         on our project --->
+        <div class="row">
+          <div class="column">
+            <img
+              id="my-photo"
+              src="https://cdn.glitch.global/cbd2fff4-ac8c-4219-9994-7ae44fc83952/Elena.png?v=1663873891620"
+              style="object-fit: fill"
+              heigt="500 px"
+              width="500 px"
+              alt="ELENA Logo"
+            />
+          </div>
+
+          <div class="col text-center" <hr>
+            <p
+              style="
+                background-color: rgb(0 0 0);
+                font-size: 22px;
+                color: rgba(255,255,255);
+                vertical-align: middle;
+                padding: 10px;
+              "
+            >
+              La desigualdad de género obstaculiza la capacidad y el potencial de las mujeres para ser actores de la acción climática. 
+              Es por ello que estas desigualdades de género en cuanto al acceso y control sobre los recursos, acceso a la educación y la información, igualdad de 
+              derechos y participación los procesos de toma de decisiones deben terminar. 
+            </p>
+          </div>
+        </div>
+
+        <!---Here we have an anchor, this is a link to any URL we want, what we did is to add an image inside the anchor 
+           so that the image becomes the link. Here we use for the first time a css class
+           social-icon", it is time to see a little bit of css --->
+        <div class="row">
+          <div class="column">
+            <div
+              class="card"
+              style="
+                background-color: #FC8A7B;
+                vertical-align: middle;
+                horizontal-align: middle;
+                border-color: #673ab7;
+              "
+            >
+              <hr />
+              <h4 style="
+                         horizontal-align: centered;
+                         font-size: 25px;"
+                         
+              ><b>NASA</b></h4>
+               <h4 style="
+                         horizontal-align: centered;
+                         font-size: 18px;"
+                         
+              >Entendiendo al planeta</h4>
+             
+              <a
+                href="https://climate.nasa.gov/"
+                class="mr-2"
+                style="text-decoration: none"
+              >
+                <img
+                  class="social-icon"
+                  src="https://cdn.glitch.global/cbd2fff4-ac8c-4219-9994-7ae44fc83952/NASA_logo.svg.png?v=1663701022818"
+                  alt="instagram"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="column">
+            <div
+              class="card"
+              style="
+                background-color: #C7E499;
+                vertical-align: middle;
+                horizontal-align: middle;
+                border-color: #673ab7;
+              "
+            >
+              <hr />
+              <h4 style="horizontal-align: centered"><b>UN Women</b></h4>
+              <h4 style="
+                font-size:18px;
+                         ">
+                Cambio climático y género
+              </h4>
+              <a
+                href="https://www.unwomen.org/es/noticias/articulo-explicativo/2022/03/articulo-explicativo-como-la-desigualdad-de-genero-y-el-cambio-climatico-estan-relacionados-entre-si#:~:text=Noticias-,Art%C3%ADculo%20explicativo%3A%20C%C3%B3mo%20la%20desigualdad%20de%20g%C3%A9nero%20y%20el,clim%C3%A1tico%20est%C3%A1n%20relacionados%20entre%20s%C3%AD&text=La%20desigualdad%20de%20g%C3%A9nero%2C%20sumada,mujeres%20de%20todo%20el%20mundo"
+                class="mr-2"
+                style="text-decoration: none"
+              >
+                <img
+                  class="social-icon"
+                  src="https://assets.impactpool.org/logos/un-women---united-nations-entity-for-gender-equality-and-the-empowerment-of-women-48d27edd-0651-4d48-aa13-3ad07578dfb5.svg"
+                  alt="instagram"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="column">
+            <div
+              class="card"
+              style="
+                background-color: #99e9f3a8;
+                vertical-align: middle;
+                horizontal-align: middle;
+                border-color: #673ab7;
+              "
+            >
+              <hr />
+              <h4 style="horizontal-align: centered"><b>Project DRAWDOWN</b></h4>
+              <h4 style="
+                font-size:18px;
+                         ">
+                Educación como solución climática
+              </h4>
+              <a
+                href="https://drawdown.org/solutions/family-planning-and-education"
+                class="mr-2"
+                style="text-decoration: none"
+              >
+                <img
+                  class="social-icon"
+                  src="https://cdn.glitch.global/cbd2fff4-ac8c-4219-9994-7ae44fc83952/drawdown.png?v=1663915979992"
+                  alt="instagram"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!---Here we will insert external sources such as songs and videos----------------->
+    
+          <br>
+          <div class="col text-center" <hr>
+            <h2 style="color:rgb(0 0 0);">¡Activistas climáticas que debes conocer!</h2>
+          <hr />
+          
+          <div class="col-text-centre">
+            <tr>
+               <p
+                  style="
+                    background-color: rgba(247, 145, 203, 0.78);
+                    font-size: 17px;
+                    vertical-align: middle;
+                    text-align: justify;
+                    padding: 10px;
+                  "
+                >
+                  <strong>Julieta Martínez (Chile, 19 años)</strong> Es una emprendedora y activista social centrada en la defensa del medioambiente. 
+                  Es fundadora de la plataforma social Tremendas y, entre otros reconocimientos, en 2019 fue nombrada embajadora de la Youth Task 
+                  Force Beijing+25 por ONU Mujeres.
+              </p>
+            </tr>
+              <tr>
+               <p
+                  style="
+                    background-color: rgba(247, 145, 203, 0.78);
+                    font-size: 17px;
+                    vertical-align: middle;
+                    text-align: justify;
+                    padding: 10px;
+                  "
+                >
+                  <strong>Gitanjali Rao (EE.UU., 16 años)</strong>  Es una inventora, autora, científica y promotora STEM. 
+                 Ganó el Discovery Education 3M Young Scientist Challenge en 2017. 
+                 Fue reconocida como Forbes 30 U 30 por sus innovaciones.
+                </p>
+              </tr>
+            <tr>
+               <p
+                  style="
+                    background-color: rgba(247, 145, 203, 0.78);
+                    font-size: 17px;
+                    vertical-align: middle;
+                    text-align: justify;
+                    padding: 10px;
+                  "
+                >
+                  <strong>Greta Thunberg (Suecia, 19 años)</strong> Es una activista medioambiental y ambientóloga
+                 centrada en los riesgos planteados por el calentamiento global.
+                </p>
+              </tr>
+          </div>
+          
+            <div class="slider-container">  
+              <img
+            class="slider-item"
+            src="https://assets.adnradio.cl/2021/07/julieta2-e1592274667123.jpeg"
+              />
+              <img
+            class="slider-item"
+            src="https://seunonoticias.mx/wp-content/uploads/2020/12/TIMEs-Kid-Of-The-Year-Gitanjali-Rao-TIME.jpg"
+              />
+              <img
+            class="slider-item"
+            src="https://efeverde.com/wp-content/uploads/2022/01/Greta-Thunberg-Comision-Europea-EFEverde.jpg"
+              />
+            </div>
+
+    
+        <!-- Display a cool message -->
+    <br>
+    <br>
+      
+       <div class="col text-center" <hr>
+            <h2 style="
+                color:rgb(0 0 0);
+                font-size:43px">
+              ¡Viaje a través del tiempo!</h2>
+            <hr />
+    
+            <iframe src="https://climate.nasa.gov/interactives/climate_time_machine" width="900" height="700"></iframe>    
+            <br />    
+      </div>
+      <div class="row">
+          <div class="col text-center" <hr>
+            <h2 style="font-size: 42px;">Arte por el medio ambiente</h2>
+            <hr />
+        
+            <p
+              style="
+                background-color: rgb(0,0,0);
+                color:rgb(255, 255, 255);
+                font-size: 22px;
+                vertical-align: middle;
+                padding: 10px;
+              "
+            >
+              
+            Artistas de todo el mundo han abordado el debate del cambio climático en sus obras. 
+            Desde hace algunos años, pintores, escultores y cantantes
+            de todo el mundo se han atrevido a abordar conversaciones 
+            complejas entrando en el debate del cambio climático y la 
+            sostenibilidad a través de su trabajo. 
+            </p>
+          </div>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1ehPJRt49h6N0LoryqKZXq?utm_source=generator" width="100%" height="380" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+       
+        
+    
+        <!-- Youtube video -->
+        <div class="instructions">
+          <h2>
+            Aprende sobre las implicaciones del género en el cambio climático
+            <br />
+          </h2>
+          <hr />
+          <br />
+          <p style="font-size: 25px">
+            A pesar de los obstáculos, <strong>las mujeres pueden desempeñar un papel fundamental en la respuesta al cambio climático</strong>
+            debido a su conocimiento local y liderazgo en, por ejemplo, la gestión sostenible 
+            de los recursos y/o liderar prácticas sostenibles a nivel doméstico y comunitario.
+          </p>
+          <br />
+          <hr />
+          <iframe
+            width="1080"
+            height="720"
+            src="https://www.youtube.com/embed/htNsjdmsA_M"
+          ></iframe>
+        </div>
+        <br>
+        
+        <h1 id="id_of_cool_text"> "Si el clima está cambiando, nosotras también deberíamos" </h1>
+    
+        <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
+        <footer class="footer">
+          <div class="links"></div>
+          <br />
+          <a
+            class="btn--remix"
+            target="_top"
+            href="https://glitch.com/edit/#!/remix/glitch-hello-website"
+            <img
+            src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
+            alt=""
+          >
+            Remix on Glitch
+          </a>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
