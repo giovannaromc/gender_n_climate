@@ -1,4 +1,4 @@
-# Hello!
+# Hello! 🌱✨
 
 This is an HTML starter project created for girls to learn how to code a website regarding climate change and gender equality.
 
