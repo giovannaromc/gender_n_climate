@@ -10,4 +10,4 @@ This is an HTML starter project created for girls to learn how to code a website
 
 ← `style.css`: CSS files add styling rules.
 
-← `script.js`: Interactivity was not added.
+← `script.js`: Interactivity code.
